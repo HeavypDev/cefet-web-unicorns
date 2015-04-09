@@ -2,17 +2,32 @@
     background-color: #6175f0;
 	color: white;
  }
+ 
  img#unicornio{
-	float: left; 
+	float: left;
+	margin: 13px;
+	width: 310px;
+	padding-top: 13px;
+    padding-right: 13px;	
  }
+ 
 h1{
 	size: 36px;
 	font-family: 'Kaushan Script', cursive;
 }
 
-h2{
-size: 24px;
-font-family: TimesNewRoman, "Times New Roman", Times;
+h2:nth-of-child(1) {
+	color: white;
+    background: #ff0000;
+	size: 24px;
+	font-family: TimesNewRoman, "Times New Roman", Times;
+	font-weight: normal;
+}
+ #verdade h2 {
+	color: black;
+	size: 24px;
+	font-family: TimesNewRoman, "Times New Roman", Times;
+	font-weight: normal;
 }
  
 #hoje { 
@@ -31,10 +46,5 @@ font-family: TimesNewRoman, "Times New Roman", Times;
  	color: black;
 	size: 24px;
 	font-family: TimesNewRoman, "Times New Roman", Times;
-	margin: 13px;
  }
-
- 
- #texto_verdade{
- 
-}
+//white-space preline (musica) 

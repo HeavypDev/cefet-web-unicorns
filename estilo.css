@@ -1,0 +1,40 @@
+#cabecalho { 
+    background-color: #6175f0;
+	color: white;
+ }
+ img#unicornio{
+	float: left; 
+ }
+h1{
+	size: 36px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+h2{
+size: 24px;
+font-family: TimesNewRoman, "Times New Roman", Times;
+}
+ 
+#hoje { 
+    background-color: #f8cef7;
+    text-align: left;
+    width: 300px;
+    padding: 25px;
+    border: 1px; 
+    border-style: solid;
+    border-color: #ff56fb;
+    margin: 25px;
+	float: left; 
+ }
+ 
+ #verdade{	
+ 	color: black;
+	size: 24px;
+	font-family: TimesNewRoman, "Times New Roman", Times;
+	margin: 13px;
+ }
+
+ 
+ #texto_verdade{
+ 
+}

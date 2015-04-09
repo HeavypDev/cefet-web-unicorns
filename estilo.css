@@ -1,50 +1,141 @@
-#cabecalho { 
+#cabecalho 
+{ 
     background-color: #6175f0;
 	color: white;
+	padding-top: 20px;
+	padding-left: 34px;
+	padding-bottom: 13px;
  }
  
- img#unicornio{
-	float: left;
-	margin: 13px;
-	width: 310px;
-	padding-top: 13px;
-    padding-right: 13px;	
- }
- 
-h1{
+#cabecalho h1
+{
 	size: 36px;
 	font-family: 'Kaushan Script', cursive;
+	font-weight: normal;
 }
 
-h2:nth-of-child(1) {
-	color: white;
-    background: #ff0000;
+#cabecalho h2
+{
 	size: 24px;
 	font-family: TimesNewRoman, "Times New Roman", Times;
 	font-weight: normal;
 }
- #verdade h2 {
+ 
+ #verdade img
+ {
+	float: left;
+	width: 310px;
+    padding-right: 13px;
+ }
+ 
+#verdade
+{	
+	color: black;
+	size: 24px;
+	font-family: TimesNewRoman, "Times New Roman", Times;
+	font-weight: normal;	
+}
+
+#verdade h2 
+{
 	color: black;
 	size: 24px;
 	font-family: TimesNewRoman, "Times New Roman", Times;
 	font-weight: normal;
 }
+#verdade p
+ {
+	color: black;
+	size: 14px;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.referencia{
+	font-style: italic;
+}
  
 #hoje { 
-    background-color: #f8cef7;
-    text-align: left;
-    width: 300px;
-    padding: 25px;
+    background-color: #f8cef7;    
+    width: 405px;
+	float: right; 
+    padding: 20px 35px 30px 35px;
+	margin-right: 25px;
     border: 1px; 
     border-style: solid;
     border-color: #ff56fb;
-    margin: 25px;
-	float: left; 
- }
+	text-align: center;
+	box-sizing:border-box;
+	font-size: 15px;
+}
  
- #verdade{	
- 	color: black;
+ #hoje h2
+ {
+	color: black;
 	size: 24px;
 	font-family: TimesNewRoman, "Times New Roman", Times;
+	font-weight: normal;
  }
-//white-space preline (musica) 
+ 
+ #hoje h3
+ {
+	color: black;
+	size: 18px;
+	font-family: TimesNewRoman, "Times New Roman", Times;
+	font-weight: normal;
+ }
+  
+ #hoje img
+ {
+	width: 112px;
+	padding: center;
+}
+
+#musica
+{
+	margin-left: 12px;	
+}
+
+#musica h2
+{
+	color: black;
+	size: 24px;
+	font-family: TimesNewRoman, "Times New Roman", Times;
+	font-weight: normal;
+	margin:12px;
+	padding-top: 20px;
+}
+
+#musica > p
+{
+	white-space: pre-line;
+	padding-left: 12px;
+	margin : 0px;
+}
+ 
+ #musica > p:nth-child(odd)
+ {
+	white-space: pre-line;
+	margin-left: 34px;
+	padding-left: 12px;
+ }
+  
+ .destacado
+ {
+	color: #004a79;
+	background-color: #c4caf3;	
+	margin-bottom: 25px;
+	padding-bottom:13px;
+ }
+
+.destacado > p
+{
+	white-space:pre-line;
+	padding-left:12px;	
+	margin:0px;
+}
+ 
+.destacado>p:nth-child(even)
+{
+	padding-left:46px;
+}
